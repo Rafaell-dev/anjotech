@@ -68,7 +68,7 @@
   @apply absolute inset-0 bg-slate-50 opacity-50;
 }
 .bg-modal {
-  @apply flex flex-col gap-2 bg-white p-8 rounded-lg shadow-lg z-10 w-11/12 ;
+  @apply flex flex-col gap-2 bg-white p-8 rounded-lg shadow-lg z-10 w-11/12;
 }
 .position-modal {
   @apply fixed inset-0 flex items-center justify-center z-50;
