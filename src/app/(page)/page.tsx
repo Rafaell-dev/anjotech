@@ -8,12 +8,14 @@ function Home() {
   return (
     <div className='overflow-hidden'>
       <Hero />
+
       <div className='padding-x flex flex-col mt-56 justify-center items-center'>
         <div className='flex flex-col items-center justify-center'>
           <h2 className='title2'>Seja o pioneiro com a Anjotech ao seu lado</h2>
+
           <div className='flex relative p-8 mt-12'>
             <Image
-              src='/banner_01.jpg'
+              src='/banner_01.svg'
               alt='banner_01'
               fill
               className='object-cover rounded-2xl  max-md:hidden'
@@ -28,18 +30,13 @@ function Home() {
                   seus clientes e o melhor de tudo, totalmente personalizado!
                 </p>
               </div>
-              <Link href='/planos'>
-                <CustomButton
-                  title='Contratar Agora'
-                  textStyles='text-primary-anjo'
-                />
-              </Link>
+              
             </div>
           </div>
 
           <div className='flex relative p-8 mt-12 justify-between'>
             <Image
-              src='/banner_02.jpg'
+              src='/banner_02.svg'
               alt='banner_02'
               width='500'
               height='200'
@@ -73,7 +70,7 @@ function Home() {
               </div>
             </div>
             <Image
-              src='/banner_03.jpg'
+              src='/banner_03.svg'
               alt='banner_03'
               width='500'
               height='200'

@@ -23,7 +23,6 @@ const CustomButton = ({
     let classes = [
       'custom-btn',
       'hover:bg-primary-movi/90',
-      'p-4',
       'rounded-2xl',
     ];
 

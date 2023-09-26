@@ -216,30 +216,33 @@ const Planos = () => {
               </div>
             </div>
           </div>
-          <div className='flex max-md:flex-col relative border rounded-2xl items-center'>
-            <Image
-              src='/banner_hostinger.svg'
-              alt='banner_hostinger'
-              width='500'
-              height='200'
-              className='md:object-cover rounded-2xl'
-              objectPosition='right center'
-            />
+          <div className='flex max-md:flex-col justify-evenly relative border rounded-2xl items-center'>
+            <div className='p-8'>
+              <Image
+                src='/aws_logo.svg'
+                alt='banner_hostinger'
+                width='200'
+                height='200'
+                className='md:object-cover rounded-2xl'
+                objectPosition='right center'
+              />
+            </div>
+
             <div className='flex flex-col items-start z-10 gap-4 md:w-1/2 bg-white rounded-2xl p-6 max-md:bg-slate-50'>
               <p className='card__subtitle'>Hospedagem 5 Estrelas</p>
               <h2 className='card__title'>Trabalhamos com os melhores</h2>
               <div className='card__text'>
                 <p className='text-start'>
-                  Trabalhamos com a Hostinger, líder de mercado, para assegurar
-                  que sua presença online esteja protegida e disponível 24/7.
+                  Trabalhamos com a AWS, líder de mercado, para assegurar que
+                  sua presença online esteja protegida e disponível 24/7.
                 </p>
+                <Link href='/buyme'>
+                  <CustomButton
+                    title='Contratar Agora'
+                    textStyles='bg-primary-anjo rounded-2xl p-4 mt-6 text-white font-bold'
+                  />
+                </Link>
               </div>
-              <Link href='/buyme'>
-                <CustomButton
-                  title='Contratar Agora'
-                  textStyles='bg-primary-anjo rounded-2xl p-4 text-white font-bold'
-                />
-              </Link>
             </div>
           </div>
         </div>
