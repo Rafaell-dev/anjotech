@@ -65,7 +65,7 @@ const Planos = () => {
                     <Check size={18} color='white' />
                   </div>
                   <p className='text-start text-base font-bold'>
-                    Site Personalizado Basic
+                    Site Padrão Basic
                   </p>
                 </div>
                 <div className='card__text flex gap-3 items-center'>

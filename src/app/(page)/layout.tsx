@@ -6,7 +6,7 @@ import { CustomButton, SpeakWithUs } from '@/components';
 
 export const metadata: Metadata = {
   title: 'Anjotech',
-  description: 'Especialistas em transformação digital',
+  description: 'Especialistas em criação de websites',
 };
 
 export default function RootLayout({

@@ -137,10 +137,10 @@ const DetailsComplete: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                   </p>
                   <div className='flex flex-col gap-1 border rounded-lg p-2 h-full'>
                     <p className='text-sm font-bold'>
-                      <span className='text-2xl'>R$ 1499,90</span> à vista
+                      <span className='text-2xl'>R$ 499,90</span> à vista
                     </p>
                     <p className='text-sm font-bold'>
-                      ou R$ 1.899,00 em 12x de R$158,25 sem juros
+                      ou R$ 598,80 em 12x de R$49,90 sem juros
                     </p>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ const DetailsComplete: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                   </p>
                   <div className='flex flex-col gap-1 border rounded-lg p-2 h-full'>
                     <p className='text-sm font-bold'>
-                      <span className='text-2xl'>R$ 99,00</span>/mês
+                      <span className='text-2xl'>R$ 79,90</span>/mês
                     </p>
                     <p className='text-sm font-bold'>
                       *2 Primeiros meses grátis

@@ -8,7 +8,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='bg-primary-anjo-100'>
+    <div className='bg-gradient-to-br from-primary-anjo to-purple-500'>
       <div className='h-screen flex flex-col items-start justify-center z-10 gap-4 md:w-1/2 rounded-tr-3xl bg-white px-12'>
         <div className='flex flex-col w-full gap-6'>
           <div className='flex flex-col gap-2'>

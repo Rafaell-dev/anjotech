@@ -1,4 +1,5 @@
 import { CustomButton } from '@/components';
+import GradientButton from '@/components/GradientButton';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -10,7 +11,7 @@ const about = () => {
         <div className='flex max-md:flex-col'>
           <div className='w-1/2 max-md:w-full lg:w-3/6 xl:w-3/6 3xl:w-2/6'>
             <Image
-              src='/tecnology_banner.jpg'
+              src='/tecnology_banner.svg'
               alt='banner'
               width={2000}
               height={200}
@@ -27,12 +28,9 @@ const about = () => {
               Criamos e desenvolvemos soluções digitais para empresas que buscam
               se destacar no mercado.
             </p>
-            <div className='flex'>
-              <CustomButton
-                title='Contratar um Plano'
-                containerStyles='p-4 border-2 border-primary-anjo rounded-lg flex items-center gap-2 '
-                textStyles='font-bold text-primary-anjo'
-              />
+            
+            <div className=''>
+              <GradientButton />
             </div>
           </div>
         </div>
@@ -224,11 +222,7 @@ const about = () => {
           </div>
           <div className='flex flex-col w-1/2 m-auto justify-end items-center'>
             <Link href='/planos' className='w-full'>
-              <CustomButton
-                title='Contratar Agora'
-                containerStyles='p-4 rounded-lg flex items-center gap-2 bg-primary-anjo w-full'
-                textStyles='font-bold text-white'
-              />
+              <GradientButton />
             </Link>
           </div>
         </div>

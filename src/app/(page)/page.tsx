@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import { CustomButton } from '@/components';
-import Link from 'next/link';
 import Hero from '@/components/hero';
+import GradientButton from '@/components/GradientButton';
 
 function Home() {
   return (
@@ -30,7 +29,6 @@ function Home() {
                   seus clientes e o melhor de tudo, totalmente personalizado!
                 </p>
               </div>
-              
             </div>
           </div>
 
@@ -76,6 +74,16 @@ function Home() {
               height='200'
               className='object-fill rounded-2xl max-md:hidden'
             />
+          </div>
+          <div className='flex flex-col justify-center my-8 gap-8'>
+            <div>
+              <GradientButton />
+            </div>
+            <p>
+              Tenha um site <span className='font-bold'>completo</span> e{' '}
+              <span className='font-bold'>personalizado</span> para o seu
+              negócio.
+            </p>
           </div>
         </div>
       </div>

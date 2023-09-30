@@ -54,9 +54,7 @@ const DetailsBasic: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                   <div className='flex flex-col justify-center border p-2 rounded-lg'>
                     <div className='flex items-center border-b'>
                       <Check className='cursor-pointer' color='black' />
-                      <p className='text-sm p-2 '>
-                        Site Personalizado Advanced
-                      </p>
+                      <p className='text-sm p-2 '>Site Padrão Basic</p>
                       <div className=''>
                         <Tooltip
                           title='Páginas Ilimitadas, acesso a recursos avançados, e 
@@ -145,10 +143,10 @@ const DetailsBasic: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                   </p>
                   <div className='flex flex-col gap-1 border rounded-lg p-2 h-full'>
                     <p className='text-sm font-bold'>
-                      <span className='text-2xl'>R$ 999,90</span> à vista
+                      <span className='text-2xl'>R$ 249,90</span> à vista
                     </p>
                     <p className='text-sm font-bold'>
-                      ou R$ 1.098,00 em 12x de R$91,50 sem juros
+                      ou R$ 299,88 em 12x de R$24,99 sem juros
                     </p>
                   </div>
                 </div>
@@ -158,7 +156,7 @@ const DetailsBasic: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                   </p>
                   <div className='flex flex-col gap-1 border rounded-lg p-2 h-full'>
                     <p className='text-sm font-bold'>
-                      <span className='text-2xl'>R$ 69,00</span>/mês
+                      <span className='text-2xl'>R$ 69,90</span>/mês
                     </p>
                     <p className='text-sm font-bold'>
                       *2 Primeiros meses grátis
